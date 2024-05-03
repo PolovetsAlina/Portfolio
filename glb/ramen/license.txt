@@ -1,0 +1,11 @@
+Model Information:
+* title:	ramen
+* source:	https://sketchfab.com/3d-models/ramen-2c7030c39343409887f7fd6516468648
+* author:	haducen (https://sketchfab.com/polovets.alina)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "ramen" (https://sketchfab.com/3d-models/ramen-2c7030c39343409887f7fd6516468648) by haducen (https://sketchfab.com/polovets.alina) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

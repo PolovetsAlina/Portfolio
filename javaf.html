@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profilo</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-row">
+                <a href="./index.html" class="logo"><strong>Portfolio</strong></a>
+
+                <button class="dark-mode-btn">
+                    <img src="./img/sun.png" alt="Light mode" class="dark-mode-btn__icon">
+                    <img src="./img/Moon.png" alt="Dark mode" class="dark-mode-btn__icon">
+                </button>
+
+                <ul class="nav-list">
+                    <li><a href="./index.html" class="link">Projects</a></li>
+                    <li><a href="./skills.html" class="link">Skills</a></li>
+                    <li><a href="./contacts.html" class="link">Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="section">
+        <h2 class="title_1">Java</h2> 
+        <div class="title_2">File accesso random</div>
+        <div class="conteiner_java">
+        <div class="conteiner_java1">  
+            <div class="title_3 rainbow-text">Come Funziona il Sistema di Accesso Random:</div>
+            <h1 style="font-size: 20px; padding-top: 30px;">Caricamento dei dati:</h1>
+            <p class="text">Quando avvii il programma, il sistema inizia caricando tutti i dati degli studenti presenti nel file "ALUNNI.DAT". 
+            Questo avviene attraverso il metodo carica_vettore(), che legge i dati dal file e li memorizza nei vettori della memoria.</p>
+            <h1 style="font-size: 20px; padding-top: 30px;">Navigazione nei dati:</h1>
+            <p class="text">Quando l'utente interagisce con l'interfaccia grafica, può richiedere operazioni come la visualizzazione, 
+            la modifica o l'eliminazione di record di studenti. Qui è dove entra in gioco l'accesso random. 
+            Utilizziamo il puntatore del file per posizionarci esattamente dove vogliamo all'interno del file, senza dover leggere ogni singolo record dall'inizio.</p>
+            <h1 style="font-size: 20px; padding-top: 30px;">Operazioni sui dati:</h1>
+            <p class="text"> Una volta posizionati nel punto desiderato del file, possiamo eseguire le operazioni richieste, come la lettura dei dati degli studenti per visualizzarli, 
+            la modifica dei record esistenti o l'inserimento di nuovi dati.</p>
+            <h1 style="font-size: 20px; padding-top: 30px;">Chiusura del file: </h1>
+            <p class="text">È importante gestire correttamente il file dopo aver eseguito le operazioni. Assicuriamo sempre di chiudere il file in modo sicuro per salvare le modifiche e garantire 
+                l'integrità dei dati.</p>
+        </div>
+        <div class="conteiner_java2">       
+             <img src="./img/img_java/1.png" alt="">
+             <img src="./img/img_java/2.png" alt="">
+             <img src="./img/img_java/3.png" alt="">
+             <img src="./img/img_java/4.png" alt="">
+             <img src="./img/img_java/5.png" alt="">
+             <img src="./img/img_java/6.png" alt="">
+        </div>
+    </div>
+    <div class="centro">
+    <a href="Polovets_Alina_4N.zip" download="Accesso_random" class="btn">Scarica file</a>
+    </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_wrapper">
+            <ul class="social">
+                <li class="social_item"><a href="#!"><img src="./img/envelope-regular-24.png" alt=""></a></li>
+                <li class="social_item"><a href="#!"><img src="./img/telegram-logo-24.png" alt=""></a></li>
+                <li class="social_item"><a href="#!"><img src="./img/whatsapp-logo-24.png" alt=""></a></li>
+                <li class="social_item"><a href="#!"><img src="./img/github-logo-24.png" alt=""></a></li>
+            </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+    
+</body>
+</html>

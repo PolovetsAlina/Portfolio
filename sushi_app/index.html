@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700&amp;subset=cyrillic-ext" rel="stylesheet">
+</head>
+<body>
+	<div class="container-main">
+    <header class="header">
+		<div class="container text-center">
+			<img src="img/logo/logo.svg" width="92" alt="">
+			<div class="tittolo">Consegna di Sushi</div>
+			<h3 class="sottotitolo">veloce e delizioso</h3>
+		</div>
+	</header>
+	<div class="container mb-5">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="row">
+
+					<!-- Ролл -->
+					<div class="col-md-6">
+						<div class="card mb-4" data-id="01">
+							<img class="product-img" src="./img/roll/philadelphia.jpg" alt="">
+							<div class="card-body text-center">
+								<h4 class="item-title">Philadelphia</h4>
+								<p><small data-items-in-box class="text-muted">6 pezzi</small></p>
+
+								<div class="details-wrapper">
+									<div class="items counter-wrapper">
+										<div class="items__control" data-action="minus">-</div>
+										<div class="items__current" data-counter>1</div>
+										<div class="items__control" data-action="plus">+</div>
+									</div>
+
+									<div class="price">
+										<div class="price__weight">180g.</div>
+										<div class="price__currency">10 €</div>
+									</div>
+								</div>
+
+								<button data-cart type="button" class="btn btn-block btn-outline-warning">+ in carella</button>
+
+							</div>
+						</div>
+					</div>
+					<!--  Ролл -->
+
+					<!-- Ролл -->
+					<div class="col-md-6">
+						<div class="card mb-4" data-id="02">
+							<img class="product-img" src="./img/roll/california-tempura.jpg" alt="">
+							<div class="card-body text-center">
+								<h4 class="item-title">California tempura</h4>
+								<p><small data-items-in-box class="text-muted">8 pezzi</small></p>
+
+								<div class="details-wrapper">
+									<div class="items counter-wrapper">
+										<div class="items__control" data-action="minus">-</div>
+										<div class="items__current" data-counter>1</div>
+										<div class="items__control" data-action="plus">+</div>
+									</div>
+
+									<div class="price">
+										<div class="price__weight">205g.</div>
+										<div class="price__currency">15 €</div>
+									</div>
+								</div>
+
+								<button data-cart type="button" class="btn btn-block btn-outline-warning">+ in carella</button>
+
+							</div>
+						</div>
+					</div>
+					<!-- // Ролл -->
+
+					<!-- Ролл -->
+					<div class="col-md-6">
+						<div class="card mb-4" data-id="03">
+							<img class="product-img" src="./img/roll/zapech-california.jpg" alt="">
+							<div class="card-body text-center">
+								<h4 class="item-title">California al forno</h4>
+								<p><small data-items-in-box class="text-muted">6 шт.</small></p>
+
+								<div class="details-wrapper">
+									<div class="items counter-wrapper">
+										<div class="items__control" data-action="minus">-</div>
+										<div class="items__current" data-counter>1</div>
+										<div class="items__control" data-action="plus">+</div>
+									</div>
+
+									<div class="price">
+										<div class="price__weight">182g.</div>
+										<div class="price__currency">13 €</div>
+									</div>
+
+								</div>
+
+								<button data-cart type="button" class="btn btn-block btn-outline-warning">+ in carella</button>
+
+							</div>
+						</div>
+					</div>
+					<!-- // Ролл -->
+
+					<!-- Ролл -->
+					<div class="col-md-6">
+						<div class="card mb-4" data-id="04">
+							<img class="product-img" src="./img/roll/philadelphia.jpg" alt="">
+							<div class="card-body text-center">
+								<h4 class="item-title">Philadelphia hit</h4>
+								<p><small data-items-in-box class="text-muted">6 pezzi</small></p>
+
+								<div class="details-wrapper">
+									<div class="items counter-wrapper">
+										<div class="items__control" data-action="minus">-</div>
+										<div class="items__current" data-counter>1</div>
+										<div class="items__control" data-action="plus">+</div>
+									</div>
+
+									<div class="price">
+										<div class="price__weight">230g.</div>
+										<div class="price__currency">15 €</div>
+									</div>
+
+								</div>
+
+								<button data-cart type="button" class="btn btn-block btn-outline-warning">
+									+ in carella
+								</button>
+
+							</div>
+						</div>
+					</div>
+					<!-- // Ролл -->
+
+				</div>
+			</div>
+			<div class="col-md-4">
+
+				<!-- Корзина -->
+				<div class="card mb-4">
+					<div class="card-body">
+						<h5 class="card-title">Il tuo ordine</h5>
+						<div data-cart-empty class="alert alert-secondary" role="alert">
+							Carella è vuota
+						</div>
+						<!-- cart-wrapper -->
+						<div class="cart-wrapper">
+
+						</div>
+						<!-- // cart-wrapper -->
+
+						<!-- Стоимость заказа -->
+						<div class="cart-total">
+							<p><span class="h5">Consegna:</span> <span class="delivery-cost free">gratis</span> </p>
+							<p><span class="h5">Totale:</span> <span class="total-price">0</span> <span class="rouble">€</span></p>
+						</div>
+						<!-- // Стоимость заказа -->
+
+					</div>
+
+					<!-- Оформить заказ -->
+					<div id="order-form" class="card-body border-top none">
+						<h5 class="card-title">
+                            Effetuare l'ordine
+                        </h5>
+						<form>
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Numero telefono:">
+							</div>
+							<button type="submit" class="btn btn-primary">Ordina</button>
+						</form>
+					</div>
+					<!-- // Оформить заказ -->
+
+				</div>
+				<!-- // Корзина -->
+			</div>
+		</div>
+	</div>
+</div>
+	<footer class="footer"></footer>
+	<script src="./js/calcCartPrice.js"></script>
+	<script src="./js/cartStatus.js"></script>
+   <script src="./js/counter02.js"></script>
+   <script src="./js/cart02.js"></script>
+</body>
+</html>
