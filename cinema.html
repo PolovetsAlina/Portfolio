@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSP Projects</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        /* Stili specifici per le immagini */
+        .container_sito {
+            width: 100vw;
+            max-width: 100%;
+            height: auto;
+            border-radius: 0;
+            margin: 0;
+            box-shadow: none;
+            transition: transform 0.3s ease;
+            display: block;
+        }
+        
+        .container_sito:hover {
+            transform: none;
+        }
+        
+        .box {
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            gap: 5px;
+            padding: 0;
+            width: 100%;
+            max-width: 100%;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        .button_container {
+            margin: 30px 0;
+        }
+        
+        .button-85 {
+            padding: 15px 30px;
+            font-size: 18px;
+            font-weight: 700;
+            background: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+        
+        .button-85:hover {
+            background: #45a049;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+        
+        /* Remove all media queries for maximum width */
+        
+        /* Remove mobile-specific styles */
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-row">
+                <a href="./index.html" class="logo"><strong>Portfolio</strong></a>
+
+                <button class="dark-mode-btn">
+                    <img src="./img/sun.png" alt="Light mode" class="dark-mode-btn__icon">
+                    <img src="./img/Moon.png" alt="Dark mode" class="dark-mode-btn__icon">
+                </button>
+
+                <ul class="nav-list">
+                    <li><a href="./index.html" class="link">Projects</a></li>
+                    <li><a href="./skills.html" class="link">Skills</a></li>
+                    <li><a href="./contacts.html" class="link">Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="section">
+        <div class="container">
+            <h2 class="title_1">Viaggi</h2>
+            <div class="project_details_2">
+                <div class="siti_details">
+                    <div class="row">
+                        <div class="box">
+                            <img src="./img/cinema_index.jpeg" alt="PHP Viaggi" class="container_sito">
+                            <img src="./img/cinema_admin.jpeg" alt="PHP Viaggi" class="container_sito">
+                            <img src="./img/cimena_user.jpeg" alt="PHP Viaggi" class="container_sito">
+                            <img src="./img/cinema_prenota.jpeg" alt="PHP Viaggi" class="container_sito">
+                            <div class="button_container">
+                                <a href="./Polovets_cinema.zip" class="button-85" role="button" target="_blank">Download</a>
+                            </div>
+                            <p class="project_tech" style="text-align: center; margin-top: 10px;">(PHPMyAdmin required)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_wrapper">
+                <ul class="social">
+                    <li class="social_item"><a href="#!"><img src="./img/envelope-regular-24.png" alt="Email"></a></li>
+                    <li class="social_item"><a href="#!"><img src="./img/telegram-logo-24.png" alt="Telegram"></a></li>
+                    <li class="social_item"><a href="#!"><img src="./img/whatsapp-logo-24.png" alt="WhatsApp"></a></li>
+                    <li class="social_item"><a href="https://github.com/PolovetsAlina" target="_blank"><img src="./img/github-logo-24.png" alt="GitHub"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
